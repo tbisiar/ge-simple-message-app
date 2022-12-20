@@ -3,6 +3,7 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
+      "env": ["TABLENAME"],
       "outputs": ["dist/**", ".next/**"]
     },
     "lint": {

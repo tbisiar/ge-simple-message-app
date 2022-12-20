@@ -1,0 +1,33 @@
+{
+  "data": {
+    "listRooms": {
+      "items": [
+        {
+          "id": "2f4d2ecc-0824-49a2-ac9b-79e5239b54b4",
+          "name": "Shared Success",
+          "createdAt": "2022-12-18T21:59:42.608Z",
+          "updatedAt": "2022-12-18T21:59:42.608Z"
+        },
+        {
+          "id": "36d7ec9a-c46b-435d-afac-139faa277ffa",
+          "name": "Owner",
+          "createdAt": "2022-12-18T21:59:55.774Z",
+          "updatedAt": "2022-12-18T21:59:55.774Z"
+        },
+        {
+          "id": "6a414f68-92aa-4b20-83d6-c63b40f0c917",
+          "name": "Belonging",
+          "createdAt": "2022-12-18T21:59:39.557Z",
+          "updatedAt": "2022-12-18T21:59:39.557Z"
+        },
+        {
+          "id": "e30cc80a-a8ad-4381-ae43-2f9957b489bc",
+          "name": "Learner's Mindset",
+          "createdAt": "2022-12-18T21:59:11.284Z",
+          "updatedAt": "2022-12-18T21:59:11.284Z"
+        }
+      ],
+      "nextToken": null
+    }
+  }
+}

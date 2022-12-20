@@ -7,8 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "build": "dotenv -- turbo run build",
+    "dev": "dotenv -- turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -20,6 +20,10 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/jest": "^29.2.4",
+    "dotenv-cli": "^6.0.0",
+    "madr": "^3.0.0"
+  },
   "packageManager": "npm@9.2.0"
 }

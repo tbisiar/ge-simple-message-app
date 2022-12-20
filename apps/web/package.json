@@ -6,22 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^4.2.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.0",
+    "amazon-cognito-identity-js": "^6.1.1",
+    "aws-amplify": "^5.0.7",
     "next": "13.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.5.0",
+    "tss-react": "^4.4.5",
     "ui": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "eslint": "7.32.0",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "eslint": "7.32.0",
+    "eslint-config-custom": "*",
+    "jest": "^29.3.1",
+    "sma-types": "*",
+    "tsconfig": "*",
     "typescript": "^4.5.3"
   }
 }
